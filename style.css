@@ -1,0 +1,63 @@
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+  
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: "Figtree", sans-serif;
+        font-size: 16px;
+        background-color: hsl(47, 88%, 63%);
+    }
+    .container{
+        width: 375px;
+        border-radius: 10px;
+        border: 1px solid hsl(0, 0%, 7%);
+        box-shadow: 10px 10px;
+        background-color: hsl(0, 0%, 100%);
+        margin: 20px auto 0;
+        margin-bottom: 30px;
+        
+    }
+   .container  img{
+        margin:  20px;
+        border-radius: 10px;
+    }
+    .all-text{
+        margin: 20px;
+        
+    }
+    .lear{
+        background-color: hsl(47, 88%, 63%);
+        width: min-content;
+        padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+    .container p{
+        color: hsl(0, 0%, 50%);
+        margin-top: 15px;
+    }
+    .container h4{
+        /* color:hsl(0, 0%, 50%); */
+        margin-top: 20px;
+        margin-bottom: 25px;
+
+    }
+    .avatar{
+        display: flex;
+        align-items: center;
+
+    }
+    h2:hover{
+        color: hsl(47, 88%, 63%);
+        cursor: pointer;
+    }
+   
